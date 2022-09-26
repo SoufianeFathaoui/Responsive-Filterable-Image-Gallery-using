@@ -45,6 +45,12 @@ nav .items .item:hover {
   width: calc(100% / 4);
   padding: 7px;
 }
+.gallery .image.show{
+  display: block;
+}
+.gallery .image.hide{
+  display: none; 
+}
 .gallery .image span {
   display: flex;
   width: 100%;
@@ -54,6 +60,8 @@ nav .items .item:hover {
   width: 100%;
   vertical-align: middle;
   transition: all 0.3 ease;
+  height: 150px;
+  margin-top: 20px;
 }
 .gallery .image:hover img {
   transform: scale(1.1);
