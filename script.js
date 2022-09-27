@@ -19,5 +19,4 @@ window.onload = () => { // once window loaded
             })
         }
     })
-    
 }
